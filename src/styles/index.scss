@@ -1,0 +1,17 @@
+@keyframes bgAnimation{
+  0% { background-position:0 50% }
+    to{ background-position:100% 50% }
+  }
+
+body {
+  background:#ff3f71;
+  background-image:linear-gradient(120deg,#ff2d60,#ff9132,#ff61fa,#6caafd,#29ccff,#1deab9);
+  background-repeat:no-repeat;background-size:800% 400%;
+  animation-name:bgAnimation___3emRn;
+  animation-duration:15s;
+  animation-timing-function:linear;
+  animation-delay:0;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-play-state:running
+}
